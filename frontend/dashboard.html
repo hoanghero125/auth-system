@@ -17,7 +17,7 @@
                 window.location.href = 'signin.html';
             }
 
-            const response = await fetch('http://localhost:5000/api/auth/dashboard', {
+            const response = await fetch('https://auth-system-8fuh.onrender.com/api/auth/dashboard', {
                 method: 'GET',
                 headers: {
                     'x-auth-token': token
